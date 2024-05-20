@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random IMEI Number Generator</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="logo.png" type="image/x-icon">
+    </head>
+    <body>
+        <p id="get-HTML"></p>
+        <div class="IMEI-generator">
+            <h1>Random IMEI Generator</h1>
+            <div class="Generator-btn">
+                <button id="gen-btn" onclick="imeiGenerator()">Get Random
+                    IMEI</button>
+            </div>
+            <div class="IMEI-output">
+                <input type="text" id="gen-input" readonly>
+            </div>
+        </div>
+        <div class="IMEI-validation">
+            <h1>Validate IMEI</h1>
+            <div class="IMEI-look">
+                <input type="text" id="IMEI-input"
+                    placeholder="Enter IMEI Number here...">
+            </div>
+            <div class="IMEI-button">
+                <button id="validate-btn">Check</button>
+            </div>
+            <div id="validation-result"></div>
+        </div>
+        <script src="dist/main.js"></script>
+    </body>
+</html> 
+

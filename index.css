@@ -1,0 +1,107 @@
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.Generator-btn {
+  text-align: center;
+}
+
+
+.Generator-btn button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: hsl(239, 83%, 42%);
+  color: #fff;
+}
+
+.Generator-btn button:active {
+  background-color: hsl(239, 72%, 90%);
+}
+
+.Generator-btn button:hover {
+  background-color: hsl(239, 83%, 60%);
+}
+
+.Generator-btn button:focus {
+  background-color: hsl(239, 83%, 60%);
+}
+
+.IMEI-output {
+  text-align: center; 
+}
+
+#gen-input {
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+
+.IMEI-look {
+  text-align: center;
+  
+}
+
+#IMEI-input {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 35%;
+  position: relative;
+  right: 7%;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.IMEI-button {
+  text-align: center;
+}
+
+#validate-btn {
+  padding: 15px;
+  border-radius: 5px;
+  width: 14%;
+  position: relative;
+  bottom: 45px;
+  left: 18%;
+  cursor: pointer;
+  background-color: hsl(239, 83%, 42%);
+  color: #fff;
+  border: none;
+}
+
+#validate-btn:active {
+  background-color: hsl(239, 83%, 100%);
+}
+
+#validate-btn:hover {
+  background-color: hsl(239, 83%, 50%);
+}
+
+.IMEI-validation h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  position: relative;
+  top: 10px;
+}
+
+#validation-result {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+  position: relative;
+  top: 10px;
+}

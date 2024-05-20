@@ -1,0 +1,22 @@
+{
+  "name": "imei-generator",
+  "version": "1.0.1",
+  "description": "it generate an IMEI and also can validate IMEI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naphtalimorage/IMEI-generator.git"
+  },
+  "author": "Naphtali",
+  "license": "ISC",
+  "keywords": [
+    "imei"
+  ],
+  "bugs": {
+    "url": "https://github.com/naphtalimorage/IMEI-generator/issues"
+  },
+  "homepage": "https://github.com/naphtalimorage/IMEI-generator#readme"
+}
